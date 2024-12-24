@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", serif;
+}
+
+.banner {
+
+    height: 850px;
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+
+}
+
+.banner-content {
+    display: inline;
+}
+
+.banner-content h2 {
+    max-width: 700px;
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-top: 150px;
+}
+
+.banner-content p {
+    max-width: 634px;
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.banner-content button {
+    padding: 20px 43px;
+    gap: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.banner-content button:hover {
+    background: #c45069;
+    color: #FFF;
+}
+
+.banner-content button:active {
+    padding: 15px 38px;
+}
+
+.banner-image img {
+    margin-top: 49px;
+    object-fit: cover;
+}
+
+.featured {
+    margin: 108px;
+    color: #272727;
+}
+
+.featured h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.featured p {
+    color: #27272799;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px;
+}
+
+.images {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.img1 {
+    background-color: #A7216226;
+    padding: 110px 76px 0 76px;
+    border: none;
+    border-radius: 300px 300px 0px 0px;
+    height: 538px;
+}
+
+.img2 {
+    background-color: #0597A026;
+    padding: 110px 0 0 0;
+    border: none;
+    border-radius: 300px 300px 0px 0px;
+    height: 538px;
+}
+
+.img3 {
+    background-color: #477D1126;
+    padding: 110px 76px 0 76px;
+    border: none;
+    border-radius: 300px 300px 0px 0px;
+    height: 538px;
+}
+
+.flower-text {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+    margin-top: 20px;
+}
+
+.group {
+    border: none;
+    border-radius: 8px;
+    background: #2727270D;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 86px 75px 87px 87px;
+    width: 1440px;
+    margin: auto;
+    flex-shrink: 0;
+}
+
+.group-text {
+    color: #272727CC;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 20px;
+}
+
+.gContent {
+    display: inline;
+    justify-content: center;
+    justify-items: center;
+}
+
+.hotdeal {
+    border: none;
+    border-radius: 8px;
+    background: #E554730D;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 110px;
+    padding: 100px 0 100px;
+}
+
+.deal-content h2 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.deal-content p {
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    color: #27272799;
+    width: 594px;
+    margin: 30px;
+}
+
+.deal-content button {
+    padding: 20px 43px;
+    align-items: flex-start;
+    border: none;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.deal-content button:hover {
+    background: #c45069;
+    color: #FFF;
+}
+
+.deal-content button:active {
+    padding: 15px 38px;
+}
+
+.instagram {
+    text-align: center;
+}
+
+.instagram h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 80px;
+}
+
+.instagram p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    color: #27272799;
+    margin: 30px;
+}
+
+.i-image img {
+    margin: 20px;
+}
+
+.latest-deal {
+    background-image: url('Rectangle\ 9.png');
+    background-size: cover;
+    width: 1500px;
+    margin: auto;
+    margin-top: 80px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.latest-deal h2 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.latest-deal p {
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.text-input input {
+    width: 700px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 30px 20px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.search button {
+    margin-left: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: none;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.search button:hover {
+    background: #c45069;
+}
+
+.search button:active {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.footer {
+    background-color: #111010;
+    color: white;
+    justify-items: center;
+    margin-top: 40px;
+    padding: 150px;
+}
+
+.footer h2 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    width: 625px;
+    color: #FFFFFFE5;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.copywrite {
+    color: #FFFFFF66;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+}
